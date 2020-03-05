@@ -24,3 +24,9 @@ set nowrap
 set clipboard=unnamedplus
 
 nmap <Leader>py <Plug>(Prettier)
+
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
+
+nmap <Leader>] :tabnext <cr>
+nmap <Leader>[ :tabprevious <cr>
